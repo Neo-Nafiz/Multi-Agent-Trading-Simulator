@@ -1,0 +1,37 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AI models and datasets
+data/
+models/
+*.gguf
+*.safetensors
+
+# Local databases
+*.db
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
