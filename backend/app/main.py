@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="TradingArena API",
+    title="Multi-Agent Trading Simulator API",
     description="Multi-Agent AI Trading Simulation Platform",
     version="0.1.0"
 )
@@ -9,7 +9,7 @@ app = FastAPI(
 @app.get("/")
 def home():
     return {
-        "project": "TradingArena",
+        "project": "Multi-Agent-Trading-Simulator",
         "status": "running",
         "agents": 0
     }
