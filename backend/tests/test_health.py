@@ -17,4 +17,4 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.json()["project"] == "TradingArena"
+    assert response.json()["project"] == "Multi-Agent-Trading-Simulator"
